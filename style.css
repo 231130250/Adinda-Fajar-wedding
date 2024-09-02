@@ -278,7 +278,35 @@ footer a:hover {
     color: white; /* Hover state changes link color to white */
 }
 
+.audio-icon-wrapper{
+    width: 3rem;
+    height: 3rem;
+    font-size: 4rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    color: white;
+    mix-blend-mode: difference;
+    animation: rotating 4s linear infinite;
+    transform-origin:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+}
+  
 /* Animations */
+
+
+@keyframes rotating{
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 @keyframes fadeInUp {
     0% {
         opacity: 0;
