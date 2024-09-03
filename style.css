@@ -295,6 +295,21 @@ footer a:hover {
     align-items: center;
     line-height: 0;
 }
+
+/* Zoom-in effect */
+.hero.zoom-out {
+    animation: zoomOut 1.5s forwards; /* Adjust the duration to control the speed of the effect */
+  }
+  
+  @keyframes zoomOut {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+  }
   
 /* Animations */
 
