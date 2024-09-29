@@ -20,16 +20,16 @@
 </head>
 <body>
   <!-- Hero Section -->
-  <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center animate_animated animate_fadeIn">
-    <main>
-     <h2>YOU'RE INVITED <br><h3 style="font-size: 2rem;">TO</h3><h2>The Wedding Of</h2></h2>
-      <h1> Fajar <br> & <br> Adinda </h1>
-      <h3>Kepada Yth: <br> Bapak/Ibu/Saudara/i</h3>
-      <h4></h4>
-      <br>
-      <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">Buka Undangan</a>
-    </main>
-  </section>
+  <!-- Hero Section -->
+<section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center animate_animated animate_fadeIn">
+  <main>
+    <h2>YOU'RE INVITED <br><h3 style="font-size: 2rem;">TO</h3><h2>The Wedding Of</h2></h2>
+    <h1> Fajar <br> & <br> Adinda </h1>
+    <h3>Kepada Yth: <br> Bapak/Ibu/Saudara/i</h3>
+    <h4 id="nama-container"></h4>
+    <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">Buka Undangan</a>
+  </main>
+</section>
 
   <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
     <div class="container">
@@ -301,7 +301,7 @@
     console.log(nama);
 
 
-    const namaContainer = document.querySelector('.hero h4');
+    const namaContainer = document.querySelector('nama-container');
     namaContainer.innerText = nama;
   </script>
   
