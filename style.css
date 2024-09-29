@@ -9,13 +9,13 @@
 body {
     font-size: 1.2rem;
     font-family: 'Work Sans', sans-serif;
-    color: var(--cream);
+    color: var(--gold);
 }
 
 .hero {
     position: relative;
     min-height: 100vh;
-    background-color: var(--cream);
+    background-color: rgb(10, 10, 10);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +23,7 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
     background-size: auto;
+    color: var(--gold);
 }
 
 .hero h1, .hero h2, .hero p {
@@ -33,12 +34,12 @@ body {
 
 .hero h1 {
     font-family: 'Cookie';
-    font-size: 5rem;
+    font-size: 10rem;
 }
 
 .hero h2 {
     font-family: 'Courgette';
-    font-size: 3rem;
+    font-size: 2.2rem;
 }
 
 .hero p {
@@ -78,17 +79,17 @@ body {
 .home {
     position: relative;
     min-height: 110vh;
-    background-color: var(--cream);
+    background-color: rgb(10, 10, 10);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('img/fajar.png'), url('img/dinda.png'); 
+    background-image: url('img/dinda.png'), url('img'); 
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
-    background-size: 95vh;
+    background-size: 90%;
 }
 .home h2, .home p {
-    color: #000;
+    color: var(--gold);
     text-align: center;
     margin-right: 1rem;
     text-shadow: var(--shadow);
@@ -99,7 +100,7 @@ body {
 }
 /* Info Section */
 .info {
-    background-color: var(--cream);
+    background-color: rgb(10, 10, 10);
     padding: 50px 0;
     position: relative;
     background-image: url('img/bginfoatas.png'), url('img/bginfobawah.png');
@@ -110,7 +111,7 @@ body {
 }
 
 .info h2, .info h3, .info h4, .info p {
-    color: #000;
+    color: var(--gold);
     margin-bottom: 1rem;
     text-shadow: var(--shadow);
 }
@@ -145,7 +146,7 @@ body {
 /* Gallery Section */
 .Galeri {
     text-align: center;
-    background-color: var(--cream);
+    background-color: rgb(10, 10, 10);
     max-width: 100%;
     margin: 0 auto;
     border-radius: 8px;
@@ -180,11 +181,11 @@ body {
 
 /* RSVP Section */
 .rsvp {
-    background-color: var(--cream);
+    background-color: rgb(10, 10, 10);
 }
 
 .rsvp h2 {
-    color: #000;
+    color: var(--gold);
     text-align: center;
     font-family: 'Cookie';
 }
@@ -204,8 +205,8 @@ body {
 
 /* Gift Section */
 .gift {
-    background-color: var(--cream); /* Background color set to black */
-    color: black; /* Text color set to cream */
+    background-color: rgb(10, 10, 10); /* Background color set to black */
+    color: var(--gold); /* Text color set to cream */
     padding: 50px 0;
     text-align: center;
     box-shadow: var(--shadow); /* Apply the shadow effect */
