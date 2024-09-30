@@ -83,10 +83,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('img/dinda.png'), url('img'); 
+    background-image: url('img/fajarhome\ \(2\).png'), url('img/dindahome\ \(2\).png'); 
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
-    background-size: 90%;
+    background-size: 50%;
 }
 .home h2, .home p {
     color: var(--gold);
