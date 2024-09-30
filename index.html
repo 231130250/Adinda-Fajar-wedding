@@ -1,35 +1,40 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Adinda&FajarWedding</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 
   <!-- Add Bootstrap Icons CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
   <!-- simplyCountdown -->
-  <link rel="stylesheet" href="simply-countdown/simplyCountdown.theme.default.css"/>
+  <link rel="stylesheet" href="simply-countdown/simplyCountdown.theme.default.css" />
   <script src="simply-countdown/simplyCountdown.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <!-- Hero Section -->
-  <!-- Hero Section -->
-<section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center animate_animated animate_fadeIn">
-  <main>
-    <h2>YOU'RE INVITED <br><h3 style="font-size: 2rem;">TO</h3><h2>The Wedding Of</h2></h2>
-    <h1> Fajar <br> & <br> Adinda </h1>
-    <h3>Kepada Yth: <br> Bapak/Ibu/Saudara/i</h3>
-    <h4 id="nama-container"></h4>
-    <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">Buka Undangan</a>
-  </main>
-</section>
+  <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center animate_animated animate_fadeIn">
+    <main>
+      <h2>YOU'RE INVITED <br>
+        <h3 style="font-size: 2rem;">TO</h3>
+        <h2>The Wedding Of</h2>
+      </h2>
+      <h1> Fajar <br> & <br> Adinda </h1>
+      <h3>Kepada Yth: <br> Bapak/Ibu/Saudara/i <span id="guestName"></span></h3> <!-- This will display the guest's name -->
+      <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">Buka Undangan</a>
+    </main>
+  </section>
 
   <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
     <div class="container">
@@ -94,11 +99,12 @@
             </div>
           </div>
           <p>Bertempat di
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.320550831211!2d98.6956464!3d3.5131375000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30313af1ac67c6c1%3A0x1cccf5e6492ea58c!2sGg.%20Sejati%20Indah%2C%20Mekar%20Sari%2C%20Kec.%20Deli%20Tua%2C%20Kabupaten%20Deli%20Serdang%2C%20Sumatera%20Utara%2020361!5e0!3m2!1sid!2sid!4v1727621475941!5m2!1sid!2sid" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <br>Jl. Sejati Gg.sejati indah, Marindal Sumatera Utara 20362</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.320550831211!2d98.6956464!3d3.5131375000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30313af1ac67c6c1%3A0x1cccf5e6492ea58c!2sGg.%20Sejati%20Indah%2C%20Mekar%20Sari%2C%20Kec.%20Deli%20Tua%2C%20Kabupaten%20Deli%20Serdang%2C%20Sumatera%20Utara%2020361!5e0!3m2!1sid!2sid!4v1727621475941!5m2!1sid!2sid" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>Jl. Sejati Gg.sejati indah, Marindal Sumatera Utara 20362</p>
           <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai.</p>
           <p style="font-family: Courgette; font-weight: bold;">Wassalamu'alaikum Warahmatullahi Wabarakatuh</p>
           <p><strong>Kami yang berbahagia:</strong></p>
-          <p> Kel Bapak Irwan Ananto Harahap & Ibu Syahfiani Dalimunthe</p>
+          <p>Kel Bapak Irwan Ananto Harahap & Ibu Syahfiani Dalimunthe</p>
           <p>Kel Bapak Eko Wahono & Ibu Saidah</p>
         </div>
       </div>
@@ -112,7 +118,7 @@
       <div class="image-display">
         <img id="image1" src="img/REL_3754.JPG" alt="Image 1">
         <img id="image2" src="img/REL_3854.JPG" alt="Image 2">
-        <img id="image3" src="img/REL_3751.JPG" alt ="Image 3">
+        <img id="image3" src="img/REL_3751.JPG" alt="Image 3">
       </div>
     </div>
   </section>
@@ -128,19 +134,18 @@
       </div>
 
       <!-- RSVP Form -->
-      <form class="row row-cols-lg-auto g-3 align-items-center justify-content-center mt-3" 
-            method="POST" 
-            action="https://script.google.com/macros/s/AKfycbzd7U99wBKIyFDksT0zv2FNDW5L_6DK0Bv2ZcqyvCG2jqNQVFxxsDQUyoLLZafR6XxX/exec" 
-            id="my-form">
+      <form class="row row-cols-lg-auto g-3 align-items-center justify-content-center mt-3" method="POST"
+        action="https://script.google.com/macros/s/AKfycbzd7U99wBKIyFDksT0zv2FNDW5L_6DK0Bv2ZcqyvCG2jqNQVFxxsDQUyoLLZafR6XxX/exec" id="my-form">
         <div class="col-12">
           <label for="nama" class="visually-hidden">Nama</label>
           <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama">
         </div>
 
         <div class="col-12">
-            <label for="jumlahkehadiran" class="visually-hidden">Jumlah Kehadiran</label>
-            <input type="number" class="form-control" id="jumlahkehadiran" name="jumlahkehadiran" min="1" max="5" placeholder="Jumlah Kehadiran">
-          </div>
+          <label for="jumlahkehadiran" class="visually-hidden">Jumlah Kehadiran</label>
+          <input type="number" class="form-control" id="jumlahkehadiran" name="jumlahkehadiran" min="1" max="5"
+            placeholder="Jumlah Kehadiran">
+        </div>
 
         <div class="col-12">
           <label for="status" class="visually-hidden">Konfirmasi</label>
@@ -155,29 +160,6 @@
           <button type="submit" class="btn btn-primary">Kirim</button>
         </div>
       </form>
-      <div class="row justify-content-center mt-5">
-        <div class="col md-6">
-          <div id="disqus_thread"></div>
-        <script>
-            /**
-            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-            /*
-            var disqus_config = function () {
-            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-            */
-            (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://adinda-fajarwedding.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -193,41 +175,41 @@
                 <li class="list-group-item">
                   <div class="fw-bold">BRI</div>
                   529901027472539 - Muhammad Fajar Fadhli Harahap
-                  <li class="list-group-item">
-                    <div class="fw-bold">Sea Bank</div>
-                    901739516941 - Adinda Ayu Fitria
-                  </li>
-                </ul>
-              </div>
+                <li class="list-group-item">
+                  <div class="fw-bold">Sea Bank</div>
+                  901739516941 - Adinda Ayu Fitria
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
-  
+
     <footer>
       <div class="container">
         <div class="row">
           <div class="col text-center">
             <small class="block">&copy;2024 Adinda&Fajar. All Rights Reserved.</small>
-            < small class="block">Design by <a href="https://instagram.com/dimasaryaarjunaa">@dimasaryaarjuna</a></small>
+            <small class="block">Design by <a href="https://instagram.com/dimasaryaarjunaa">@dimasaryaarjuna</a></small>
           </div>
         </div>
       </div>
     </footer>
-  
+
     <div id="audio-container">
       <audio id="song" loop>
         <source src="Tiara Andini, Arsy Widianto   Lagu Pernikahan Kita-0876e6b0a8d6433373417ec5aa87d298.mp3" type="audio/mp3">
       </audio>
-  
+
       <div class="audio-icon-wrapper">
         <i><i class="bi bi-disc"></i></i>
       </div>
     </div>
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     <!-- Countdown Initialization -->
     <script>
       simplyCountdown('.simply-countdown', {
@@ -239,72 +221,71 @@
         seconds: 0,
       });
     </script>
-  
-  <script>
-    const rootElement = document.querySelector(":root");
-    const song = document.getElementById("song");
-    const btnBukaUndangan = document.querySelector('a[href="#home"]');
-  
-    function disableScroll() {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
-  
-      window.onscroll = function () {
-        window.scrollTo(scrollLeft, scrollTop);
-      };
-  
-      rootElement.style.scrollBehavior = "auto";
-    }
-  
-    function enableScroll() {
-      window.onscroll = null;
-      rootElement.style.scrollBehavior = "smooth";
-      
-      // Simpan status undangan telah dibuka
-      sessionStorage.setItem("invitationOpened", "true");
-  
-      // Mulai musik
-      song.play();
-  
-      // Scroll otomatis perlahan-lahan
-      let scrollInterval = setInterval(function() {
-        let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-        window.scrollBy(0, 1); // Scroll ke bawah 1px setiap interval
-  
-        // Hentikan scroll saat mencapai bagian undangan
-        if (scrollPosition >= document.querySelector("#home").offsetTop) {
-          clearInterval(scrollInterval);
-        }
-      }, 0.5); // Ubah interval ini untuk mengatur kecepatan scroll (angka lebih kecil berarti lebih cepat)
-    }
-  
-    window.onload = function () {
-      // Cek apakah undangan sudah dibuka sebelumnya
-      if (sessionStorage.getItem("invitationOpened")) {
-        enableScroll();
-      } else {
-        disableScroll();
-        song.pause();
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const song = document.getElementById("song");
+      const btnBukaUndangan = document.querySelector('a[href="#home"]');
+
+      function disableScroll() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollLeft, scrollTop);
+        };
+
+        rootElement.style.scrollBehavior = "auto";
       }
-    };
-  
-    btnBukaUndangan.addEventListener("click", enableScroll);
-  </script>
-  
-  
-    btnBukaUndangan.addEventListener("click", enableScroll);
-  </script>
 
-  <script>
-    const urlParams = new URLSearchParams(window.location.search);
-    const nama = urlParams.get('nama')
-    console.log(nama);
+      function enableScroll() {
+        window.onscroll = null;
+        rootElement.style.scrollBehavior = "smooth";
 
+        // Simpan status undangan telah dibuka
+        sessionStorage.setItem("invitationOpened", "true");
 
-    const namaContainer = document.querySelector('nama-container');
-    namaContainer.innerText = nama;
-  </script>
-  
+        // Mulai musik
+        song.play();
+
+        // Scroll otomatis perlahan-lahan
+        let scrollInterval = setInterval(function () {
+          let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+          window.scrollBy(0, 1); // Scroll ke bawah 1px setiap interval
+
+          // Hentikan scroll saat mencapai bagian undangan
+          if (scrollPosition >= document.querySelector("#home").offsetTop) {
+            clearInterval(scrollInterval);
+          }
+        }, 0.5); // Ubah interval ini untuk mengatur kecepatan scroll (angka lebih kecil berarti lebih cepat)
+      }
+
+      window.onload = function () {
+        // Cek apakah undangan sudah dibuka sebelumnya
+        if (sessionStorage.getItem("invitationOpened")) {
+          enableScroll();
+        } else {
+          disableScroll();
+          song.pause();
+        }
+      };
+
+      btnBukaUndangan.addEventListener("click", enableScroll);
+    </script>
+
+    <!-- Display Guest's Name in the Invitation -->
+    <script>
+      // Parse the URL and extract the "nama" parameter
+      const urlParams = new URLSearchParams(window.location.search);
+      const guestName = urlParams.get('nama') || 'Tamu Undangan'; // Fallback to "Tamu Undangan" if not present
+
+      // Select the element to display the guest name
+      const guestNameContainer = document.querySelector("#guestName");
+
+      // Update the text content with the guest's name
+      guestNameContainer.textContent = guestName;
+    </script>
+
     <!-- Form Submission Script -->
     <script>
       window.addEventListener("load", function () {
@@ -323,5 +304,6 @@
         });
       });
     </script>
-  </body>
-  </html>
+</body>
+
+</html>
